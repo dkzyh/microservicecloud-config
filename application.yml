@@ -1,17 +1,17 @@
-spring：
+spring:
     profile:
         active:
         - dev
 ---
 
-spring：
+spring:
     profile: dev    # 开发环境
     application:
         name: microservicecloud-config-youzhiyu-dev
         
 ---
 
-spring：
+spring:
     profile: test   # 测试环境
     application: 
         name: microservicecloud-config-youzhiyu-test
